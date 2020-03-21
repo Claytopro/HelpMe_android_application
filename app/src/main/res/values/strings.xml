@@ -1,0 +1,22 @@
+<resources>
+    <string name="googlemaps_apikey">AIzaSyBCz5i2fg0sJcOgUXQroEhjBLKpNYItD8I</string>
+
+    <string name="app_name">prepApp</string>
+    <string name="email">Email</string>
+    <string name="password">password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="greeting">Hello, </string>
+    <string name="chat_rooms_availible">Chat rooms availible:</string>
+    <string name="request_aid">Request Aid</string>
+    <string name="type_your_message">Type Your Message :</string>
+    <string name="helpMsg">People in need of a little help:</string>
+    <string name="send_request">Send Request</string>
+    <string name="cancel">Cancel</string>
+</resources>

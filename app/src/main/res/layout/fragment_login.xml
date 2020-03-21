@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:clickable="true"
+    tools:context="com.example.prepapp.userProfile"
+    android:focusable="true">
+
+    <EditText
+        android:id="@+id/login_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="268dp"
+        android:autofillHints="no"
+        android:hint="@string/email"
+        android:inputType="text"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="331dp"
+        android:autofillHints="no"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp" />
+
+    <Button
+        android:id="@+id/signin_loginpage_btn"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="159dp"
+        android:background="@drawable/button_shape"
+        android:text="@string/sign_in" />
+
+
+</RelativeLayout>
